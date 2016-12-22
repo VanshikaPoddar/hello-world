@@ -1,0 +1,174 @@
+import java.io.*;
+import java.util.*;
+public class Main
+      {
+          public static void main()throws IOException
+                {
+                    
+                    InputStreamReader isr = new InputStreamReader(System.in);
+                    BufferedReader br = new BufferedReader (isr);
+                    
+Main.Clear();                   
+System.out.println(" ***                              ***  ************  ***                  ******         *******       ******        ******  ************       ");
+System.out.println("  ***                            ***   ************  ***                ******         ***     ***     ***  ***    ***  ***  ************       ");       
+System.out.println("   ***                          ***    ***           ***               ***            ***       ***    ***   ***  ***   ***  ***                ");
+System.out.println("    ***                        ***     ***           ***             ***             ***         ***   ***   ***  ***   ***  ***                ");
+System.out.println("     ***                      ***      ************  ***            ***             ***           ***  ***    ******    ***  ************       ");
+System.out.println("      ***                    ***       ************  ***             ***            ***           ***  ***              ***  ************       ");
+System.out.println("       ***      ******      ***        ***           ***              ***            ***         ***   ***              ***  ***                ");
+System.out.println("        ***    ***  ***    ***         ***           ***               ***             ***      ***    ***              ***  ***                ");
+System.out.println("         ***  ***    ***  ***          ************  ************        *****           ***   ***     ***              ***  ************       ");
+System.out.println("          ******      ******           ************  ************         ******           *****       ***              ***  ************       ");
+System.out.println("                                                                                                                                                ");
+System.out.println("                                                *********************         *******                                                           ");                     
+System.out.println("                                                *********************       ***     ***                                                         ");
+System.out.println("                                                         ***               ***       ***                                                        ");
+System.out.println("                                                         ***              ***         ***                                                       ");
+System.out.println("                                                         ***             ***           ***                                                      ");
+System.out.println("                                                         ***             ***           ***                                                      ");           
+System.out.println("                                                         ***              ***         ***                                                       ");
+System.out.println("                                                         ***                ***      ***                                                        ");
+System.out.println("                                                         ***                  ***   ***                                                         ");
+System.out.println("                                                         ***                    *****                                                           ");
+System.out.println("                                                                                                                                                ");
+System.out.println("                 ******  ***      ***        *******       *********      *********     ***************    ******        ***         ******     ");                 
+System.out.println("               ****      ***      ***      ***     ***     ***     ***    ***     ***   ***************    ***  ***      ***      ***           ");
+System.out.println("            ***          ***      ***     ***       ***    ***      ***   ***      ***        ***          ***  ***      ***     ***            ");       
+System.out.println("               *****     ***      ***    ***         ***   ***      ***   ***      ***        ***          ***   ***     ***    ***             ");  
+System.out.println("                  ***    ************   ***           ***  ***    ***     ***    ***          ***          ***    ***    ***   ***              ");
+System.out.println("                    ***  ************   ***           ***  *** ***        *** ***             ***          ***    ***    ***    ***     ******  ");
+System.out.println("                    ***  ***      ***    ***         ***   ***            ***                 ***          ***     ***   ***     ***       ***  "); 
+System.out.println("                 *****   ***      ***      ***      ***    ***            ***                 ***          ***      ***  ***       ***     ***  ");
+System.out.println("               ***       ***      ***       ***   ***      ***            ***           ***************    ***       *** ***         *********  ");            
+System.out.println("            ***          ***      ***         *****        ***            ***           ***************    ***        ******               ***  ");
+System.out.println("                                                                                                                                                ");                                                   
+System.out.println("                                         ******  *********     *********       ************  ************      *****                            ");                                    
+System.out.println("                                       ****      ***     ***   ***     ***     ************  ************      *****                            ");
+System.out.println("                                    ***          ***      ***  ***      ***    ***           ***               *****                            ");
+System.out.println("                                       *****     ***      ***  ***      ***    ***           ***                ***                             ");
+System.out.println("                                          ***    ***    ***    ***    ***      ************  ************       ***                             ");
+System.out.println("                                            ***  *** ***       *** ***         ************  ************       ***                             ");
+System.out.println("                                            ***  ***           ***   ***       ***           ***                 *                              ");
+System.out.println("                                         *****   ***           ***    ***      ***           ***                                                ");
+System.out.println("                                       ***       ***           ***      ***    ************  ************       ***                             ");
+System.out.println("                                    ***          ***           ***        ***  ************  ************       ***                             ");
+System.out.println("Please Enter Your Name : ");
+String n1 = br.readLine();
+System.out.println();
+System.out.println();
+System.out.println("Please Enter Your Age : ");
+int a1 = Integer.parseInt(br.readLine());
+System.out.println();
+System.out.println();
+System.out.println("Please Enter Your Phone Number : ");
+float no1 = Float.parseFloat(br.readLine());
+System.out.println();
+System.out.println();
+System.out.println();
+System.out.println("Please Press ||ENTER|| to continue");
+br.readLine();
+Main.Clear();
+System.out.println("Welcome " + n1);
+System.out.println();
+System.out.println();
+System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+System.out.println();
+System.out.println();
+System.out.println(" SHOPPING SPREE has the world's most famous international brands and a wide variety of choices!");
+System.out.println();
+System.out.println("You will find that we have all the clothes made of the worlds softest and finest materials and the Electronics are 5 star rated!!! :) ");
+System.out.println();
+System.out.println();
+System.out.println("To continue Please Press ||ENTER||");
+br.readLine();
+Main.Clear();
+Main.timer();
+Main.main1();
+}
+public static void main1()throws IOException
+{
+int cho;
+double total, total1,total2,total3 =0;
+try{
+InputStreamReader isr = new InputStreamReader(System.in);
+                    BufferedReader br = new BufferedReader (isr);
+do{
+Main.Clear();
+Main.timer();
+Main.Clear();
+System.out.println();
+System.out.println("                                    88b           d88              88                  88b           d88                                       ");
+System.out.println("                                    888b         d888                                  888b         d888                                       "); 
+System.out.println("                                    88`8b       d8'88                                  88`8b       d8'88                                       "); 
+System.out.println("                                    88 `8b     d8' 88  ,adPPYYba,  88  8b,dPPYba,      88 `8b     d8' 88   ,adPPYba,  8b,dPPYba,   88       88 "); 
+System.out.println("                                    88  `8b   d8'  88  **     `Y8  88  88P'   `*8a     88  `8b   d8'  88  a8P_____88  88P'   `*8a  88       88 "); 
+System.out.println("                                    88   `8b d8'   88  ,adPPPPP88  88  88       88     88   `8b d8'   88  8PP*******  88       88  88       88 "); 
+System.out.println("                                    88    `888'    88  88,    ,88  88  88       88     88    `888'    88  *8b,   ,aa  88       88  *8a,   ,a88 ");
+System.out.println("                                    88     `8'     88  `*8bbdP*Y8  88  88       88     88     `8'     88   `*Ybbd8*'  88       88   `*YbbdP'Y8 "); 
+System.out.println();
+System.out.println();
+System.out.println();
+System.out.println();
+System.out.println(" Which section do you want to shop from?");
+System.out.println();
+System.out.println();
+System.out.println("1.Clothes!");
+System.out.println();  
+System.out.println();  
+System.out.println("2.Electronics!");
+System.out.println();
+System.out.println();  
+System.out.println("3.Billing Counter");
+System.out.println();
+System.out.println();  
+System.out.println("Enter a choice");
+System.out.println();  
+ cho = Integer.parseInt(br.readLine());
+if(cho==1)
+{
+Clothes Clothes1 = new Clothes();
+Clothes1.menu1();
+
+}
+else if(cho==2)
+{
+Electronics Electronics1 = new Electronics();
+Electronics1.menu2();
+
+}
+else
+{
+
+                    System.out.println();
+                    System.out.println("Calculating your bill.....");
+                    Main.timer();
+                    Main.Clear();
+                    Main.Bill();
+                    
+                    
+                }}while(false);
+            }catch(Exception e){}
+        }
+
+                public static void timer()
+    {
+       long time =0;
+       Main.Clear();
+System.out.println("Please Wait.......");
+while(time<=90000000)
+{
+
+time++;
+}}
+          public static void Clear()
+{
+System.out.println('\f');
+}
+        
+   
+            public static void Bill()
+    {
+     System.out.println("Your Bill equals to Rs. ");
+    }
+  }
+
